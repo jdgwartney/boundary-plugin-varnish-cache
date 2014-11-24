@@ -1,0 +1,53 @@
+{
+    "description": "Monitors Varnish Cache",
+    "command": "python -u plugin.py",
+    "icon" : "icon.png",
+    "metrics" : [
+        "VARNISH_CACHE_ACCEPT_FAIL",
+        "VARNISH_CACHE_BACKEND_BUSY",
+        "VARNISH_CACHE_BACKEND_CONN",
+        "VARNISH_CACHE_BACKEND_FAIL",
+        "VARNISH_CACHE_BACKEND_RECYCLE",
+        "VARNISH_CACHE_BACKEND_REQ",
+        "VARNISH_CACHE_BACKEND_RETRY",
+        "VARNISH_CACHE_BACKEND_REUSE",
+        "VARNISH_CACHE_BACKEND_TOOLATE",
+        "VARNISH_CACHE_BACKEND_UNHEALTHY",
+        "VARNISH_CACHE_CACHE_HIT",
+        "VARNISH_CACHE_CACHE_HITPASS",
+        "VARNISH_CACHE_CACHE_MISS",
+        "VARNISH_CACHE_CLIENT_CONN",
+        "VARNISH_CACHE_CLIENT_DROP",
+        "VARNISH_CACHE_CLIENT_DROP_LATE",
+        "VARNISH_CACHE_CLIENT_REQ",
+        "VARNISH_CACHE_FETCH_1XX",
+        "VARNISH_CACHE_FETCH_204",
+        "VARNISH_CACHE_FETCH_304",
+        "VARNISH_CACHE_FETCH_FAILED",
+        "VARNISH_CACHE_FETCH_HEAD",
+        "VARNISH_CACHE_LOSTHDR",
+        "VARNISH_CACHE_S_BODYBYTES",
+        "VARNISH_CACHE_S_FETCH",
+        "VARNISH_CACHE_S_HDRBYTES",
+        "VARNISH_CACHE_S_PASS",
+        "VARNISH_CACHE_S_PIPE",
+        "VARNISH_CACHE_S_REQ",
+        "VARNISH_CACHE_S_SESS"],
+
+    "dashboards" : [{"name" : "Varnish Cache Dummy",
+        "layout" : 
+"d-w=4&d-h=4&d-pad=5&d-bg=none&d-g-VARNISH_CACHE_BACKEND_BUSY=0-0-1-1&d-g-VARNISH_CACHE_BACKEND_CONN=1-0-1-1&d-g-VARNISH_CACHE_BACKEND_FAIL=2-0-1-1&d-g-VARNISH_CACHE_BACKEND_RECYCLE=3-0-1-1&d-g-VARNISH_CACHE_BACKEND_REQ=0-1-1-1&d-g-VARNISH_CACHE_BACKEND_RETRY=1-1-1-1&d-g-VARNISH_CACHE_BACKEND_REUSE=2-1-1-1&d-g-VARNISH_CACHE_BACKEND_TOOLATE=3-1-1-1&d-g-VARNISH_CACHE_BACKEND_UNHEALTHY=0-2-1-1&d-g-VARNISH_CACHE_S_BODYBYTES=0-3-1-1&d-g-VARNISH_CACHE_CACHE_HIT=1-2-1-2-t&d-g-VARNISH_CACHE_CACHE_MISS=1-2-1-2-b&d-g-VARNISH_CACHE_CLIENT_CONN=2-2-1-1&d-g-VARNISH_CACHE_S_HDRBYTES=2-3-1-1&d-g-VARNISH_CACHE_S_REQ=3-2-1-1&d-g-VARNISH_CACHE_S_SESS=3-3-1-1" }],
+
+    "paramArray": { "itemTitle": [ "instance_name" ], "schemaTitle": "Instance Name" },
+    "paramSchema": [
+        {
+            "title": "Varnish Instance Name",
+            "name": "instance_name",
+            "description": "Name of the instance to monitor (defaults to current hostname)",
+            "type": "string",
+            "default": "",
+            "required": false
+        }
+    ]
+}
+
