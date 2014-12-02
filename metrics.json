@@ -1,0 +1,304 @@
+{
+    "result": [
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Accept failures",
+            "displayName": "Varnish - Accept Fail",
+            "displayNameShort": "Varnish - Acc Fail",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_ACCEPT_FAIL",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. too many",
+            "displayName": "Varnish - Backend Busy",
+            "displayNameShort": "Varnish - Bknd Busy",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_BUSY",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. success",
+            "displayName": "Varnish - Backend Connections",
+            "displayNameShort": "Varnish - Bknd Conn",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_CONN",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. failures",
+            "displayName": "Varnish - Backend Fail",
+            "displayNameShort": "Varnish - Bknd Fail",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_FAIL",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. recycles",
+            "displayName": "Varnish - Backend Recycle",
+            "displayNameShort": "Varnish - Bknd Rccl",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_RECYCLE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend requests made",
+            "displayName": "Varnish - Backend Requests",
+            "displayNameShort": "Varnish - Bknd Req",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_REQ",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. retry",
+            "displayName": "Varnish - Backend Retry",
+            "displayNameShort": "Varnish - Bknd Retry",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_RETRY",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. reuses",
+            "displayName": "Varnish - Backend Reuse",
+            "displayNameShort": "Varnish - Bknd Reuse",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_REUSE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. was closed",
+            "displayName": "Varnish - Backend Too Late",
+            "displayNameShort": "Varnish - Bknd Tlate",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_TOOLATE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Backend conn. not attempted",
+            "displayName": "Varnish - Backend Unhealthy",
+            "displayNameShort": "Varnish - Bknd Unhly",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_BACKEND_UNHEALTHY",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Cache hits",
+            "displayName": "Varnish - Cache Hit",
+            "displayNameShort": "Varnish - Cache Hit",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CACHE_HIT",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Cache hits for pass",
+            "displayName": "Varnish - Cache Hit Pass",
+            "displayNameShort": "Varnish - Cache HitP",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CACHE_HITPASS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Cache misses",
+            "displayName": "Varnish - Cache Miss",
+            "displayNameShort": "Varnish - Cache Miss",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CACHE_MISS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Client connections accepted",
+            "displayName": "Varnish - Client Conn",
+            "displayNameShort": "Varnish - Clnt Conn",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CLIENT_CONN",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Connection dropped, no sess/wrk",
+            "displayName": "Varnish - Client Drop",
+            "displayNameShort": "Varnish - Clnt Drop",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CLIENT_DROP",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Connection dropped late",
+            "displayName": "Varnish - Client Drop Late",
+            "displayNameShort": "Varnish - Clnt DrLat",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CLIENT_DROP_LATE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Client requests received",
+            "displayName": "Varnish - Client Req",
+            "displayNameShort": "Varnish - Clnt Req",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_CLIENT_REQ",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Fetch no body (1xx)",
+            "displayName": "Varnish - Fetch 1xx",
+            "displayNameShort": "Varnish - Fetch 1xx",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_FETCH_1XX",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Fetch no body (204)",
+            "displayName": "Varnish - Fetch 204",
+            "displayNameShort": "Varnish - Fetch 204",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_FETCH_204",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Fetch no body (304)",
+            "displayName": "Varnish - Fetch 304",
+            "displayNameShort": "Varnish - Fetch 304",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_FETCH_304",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Fetch failed",
+            "displayName": "Varnish - Fetch Failed",
+            "displayNameShort": "Varnish - Fetch Fail",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_FETCH_FAILED",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Fetch head",
+            "displayName": "Varnish - Fetch Head",
+            "displayNameShort": "Varnish - Fetch Head",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_FETCH_HEAD",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "HTTP header overflows",
+            "displayName": "Varnish - Lost Header",
+            "displayNameShort": "Varnish - Lost Hdr",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_LOSTHDR",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total body bytes",
+            "displayName": "Varnish - Total Body Bytes",
+            "displayNameShort": "Varnish - Body Bytes",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_BODYBYTES",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total fetch",
+            "displayName": "Varnish - Total Fetch",
+            "displayNameShort": "Varnish - Tot Fetch",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_FETCH",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total header bytes",
+            "displayName": "Varnish - Total Header Bytes",
+            "displayNameShort": "Varnish - Hdr Bytes",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_HDRBYTES",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total pass",
+            "displayName": "Varnish - Total Pass",
+            "displayNameShort": "Varnish - Pass",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_PASS",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total pipe",
+            "displayName": "Varnish - Total Pipe",
+            "displayNameShort": "Varnish - Pipe",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_PIPE",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total Requests",
+            "displayName": "Varnish - Total Requests",
+            "displayNameShort": "Varnish - Total Req",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_REQ",
+            "unit": "number"
+        },
+        {
+            "defaultAggregate": "avg",
+            "defaultResolutionMS": 1000,
+            "description": "Total Sessions",
+            "displayName": "Varnish - Total Sessions",
+            "displayNameShort": "Varnish - Total Sess",
+            "isDisabled": null,
+            "name": "VARNISH_CACHE_S_SESS",
+            "unit": "number"
+        }
+    ]
+}
